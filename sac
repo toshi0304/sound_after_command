@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# 引数で受け取ったコマンドを実行します
+$@
+
+# コマンドの実行が完了した後にサウンドを再生します
+afplay /System/Library/Sounds/Ping.aiff
